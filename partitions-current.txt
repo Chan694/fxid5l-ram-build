@@ -1,0 +1,6 @@
+dev:    size   erasesize  name
+mtd0: 00030000 00010000 "u-boot"
+mtd1: 00010000 00010000 "u-boot-env"
+mtd2: 00010000 00010000 "factory"
+mtd3: 007b0000 00010000 "firmware"
+mtd4: 00800000 00010000 "flash-backup-2"

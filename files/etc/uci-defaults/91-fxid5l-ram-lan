@@ -1,0 +1,6 @@
+#!/bin/sh
+# Based on the observed RAM-boot Ethernet configuration. Test via serial console.
+uci -q set network.lan.ipaddr='192.168.0.1'
+uci -q set network.@switch_vlan[0].ports='0 1 2 6t'
+uci -q commit network
+exit 0

@@ -1,0 +1,1 @@
+{"luci-app-fxid5l-lte":{"description":"FX-ID5L LTE Band Manager","read":{"ubus":{"fxid5l_lte":["status"],"fxid5l_imei":["status"],"fxid5l_control":["preview"]}},"write":{"ubus":{"fxid5l_control":["apply"]}}}}

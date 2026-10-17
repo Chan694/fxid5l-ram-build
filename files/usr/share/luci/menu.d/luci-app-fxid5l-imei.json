@@ -1,0 +1,10 @@
+{
+    "admin/network/fxid5l-imei": {
+        "title": "IMEI Engineering Lab",
+        "order": 66,
+        "action": {
+            "type": "view",
+            "path": "lte/imei-lab"
+        }
+    }
+}

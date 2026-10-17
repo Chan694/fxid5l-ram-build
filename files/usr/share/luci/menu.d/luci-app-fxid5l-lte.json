@@ -1,0 +1,10 @@
+{
+    "admin/network/fxid5l-lte": {
+        "title": "LTE Band Manager",
+        "order": 65,
+        "action": {
+            "type": "view",
+            "path": "lte/bands"
+        }
+    }
+}
