@@ -34,7 +34,7 @@ jobs:
 
       - name: Compile OpenWrt
         env:
-          JOBS: '2'
+          JOBS: '4'
           WORKDIR: ${{ github.workspace }}/openwrt-src
         run: bash build_ram.sh
 
